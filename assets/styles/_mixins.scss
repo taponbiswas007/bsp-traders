@@ -1,0 +1,32 @@
+@import 'variables';
+
+@mixin navlink-style{
+    font-family: $header-font;
+    color: $black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+@mixin top-menu-link-style{
+    color: $header-text-color;
+    font-size: 16px;
+    font-family: $header-font;
+    text-transform: capitalize;
+    font-weight: 500;
+    &:hover{
+        color: $header-text-hover;
+    }
+}
+@mixin top-bar-massage-style{
+    color: $header-text-color;
+    font-size: 16px;
+    font-family: $header-font;
+    text-transform: capitalize;
+    font-weight: 500;
+   
+}
+@mixin dropdown-menu-style{
+    background: $white;
+    padding: 15px;
+    border-radius: 5px;
+}

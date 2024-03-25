@@ -1,0 +1,23 @@
+@import '../variables';
+@import '../mixins';
+.navbar-area{
+    ul{
+        li{
+            display: inline-block;
+            margin-right: 20px;
+            a{
+                @include navlink-style;
+                &:hover{
+                    color: $blue;
+                }
+                &:focus{
+                    color: $blue;
+                }
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+       
+    }
+}
