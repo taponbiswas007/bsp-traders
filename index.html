@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BSP Traders</title>
     <!-- bootstrap link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font awasome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
     <header>
-        <div class="container-fluid">
-            <div class="header-top-bar">
-                <div class="topbar-massage">
-                    <p>Express delivery and free returns within 30 days</p>
-                    <a href="#">See details</a>
-                </div>
-                <div class="top-bar-right">
-                    <div class="top-menu-area">
-                        <ul>
-                            <li><a href="#">About Us </a></li>
-                            <li><a href="#">Order Tracking</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li class="language-select">
-                                <button id="languageBtn"><img src="assets/images/flag/flag_en.webp" alt=""> english <i class="fa-solid fa-angle-down"></i></button>
-                            
+        <!-- header top bar start-->
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="header-topbar-main-area">
+                    <div class="topbar-massage">
+                        <p>Express delivery and free returns within 30 days</p>
+                        <a href="#">See details</a>
+                    </div>
+                    <div class="top-bar-right">
+                        <div class="top-menu-area">
+                            <ul>
+                                <li><a href="#">About Us </a></li>
+                                <li><a href="#">Order Tracking</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li class="language-select">
+                                    <button id="languageBtn"><img src="assets/images/flag/flag_en.webp" alt=""> english
+                                        <i class="fa-solid fa-angle-down"></i></button>
+
                                     <ul class="language-list">
                                         <li>
                                             <button><img src="assets/images/flag/bn.webp" alt=""> bangla </button>
@@ -39,53 +50,113 @@
                                         <li>
                                             <button><img src="assets/images/flag/flag_it.png" alt=""> etaliano </button>
                                         </li>
-                                       
+
                                     </ul>
-                                
+
+                                </li>
+                                <li class="currency-select">
+                                    <button id="currencyBtn">
+                                        united states (USD$)
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </button>
+                                    <ul class="currency-list">
+                                        <li>
+                                            <button> bangladesh (BDT ৳) </button>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header top bar end-->
+
+        <!-- header middle bar start-->
+        <div class="header-middle-bar">
+            <div class="container">
+                <div class="header-middle-bar-main-area">
+                    <div class="logo-area">
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo.png" alt="BSP Traders">
+                        </a>
+                    </div>
+                    <div class="product-search-area">
+                        <div class="product-search-main-area">
+                            <div class="product-catagory-selector">
+                                <select name="" id="">
+                                    <option value="">all catagory</option>
+                                    <option value="">computer</option>
+                                    <option value="">laptop</option>
+                                    <option value="">electronics</option>
+                                    <option value="">cloth</option>
+                                    <option value="">cosmetics</option>
+                                </select>
+                            </div>
+                            <div class="product-search-content">
+                                <input type="text" placeholder="Search for producs..">
+                            </div>
+                            <div class="product-search-btn">
+                                <button>search</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-middle-bar-right-area">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-regular fa-user user-icon"></i>
+                                    <span>
+                                        <span>login</span>
+                                        <span>account</span>
+                                    </span>
+                                </a>
                             </li>
-                            <li class="currency-select">
-                                <button id="currencyBtn">
-                                    united states (USD$)
-                                    <i class="fa-solid fa-angle-down"></i>
-                                </button>
-                                <ul class="currency-list">
-                                    <li>
-                                        <button> bangladesh (BDT ৳) </button>
-                                    </li>
-                                </ul>
+                            <li>
+                                <a href="#">
+                                   <span class="user-icon cart-icon"> <i class="fa-regular fa-heart"></i></span>
+                                    <span>
+                                        <span>favorite</span>
+                                        <span>my wishlist</span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   <span class="cart-icon user-icon">
+                                    <i class="fa-solid fa-cart-shopping "></i>
+                                   </span>
+                                    <span>
+                                        <span>your cart</span>
+                                        <span>$0.00</span>
+                                    </span>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header_main_area">
-                <div class="logo">
-                    <a href="#">
-                        <img src="assets/images/logo.png" alt="BSP Traders">
-                    </a>
-                </div>
-                <nav class="navbar-area">
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">contact</a></li>
-                        <li><a href="#">about us</a></li>
-                    </ul>
-                </nav>
-                <div class="singn-in-up-area">
-                    <button>sign in</button>
-                    <button>sign up</button>
-                </div>
-            </div>
         </div>
+        <!-- header middle bar end-->
+
+        <!-- header navbar bar start-->
+        <div class="header_bottom_area">
+           div.hea
+        </div>
+        <!-- header navbar bar end-->
     </header>
 
 
 
     <!-- font awasome js link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- jquery link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- main js link -->
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
