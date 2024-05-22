@@ -26,7 +26,10 @@ header {
                 a {
                     @include top-menu-link-style;
                     transition: .5s ease;
-                    color: $white;
+                    color: $orange;
+                    &:hover{
+                        color: $blue;
+                    }
                 }
             }
 
@@ -151,11 +154,11 @@ header {
                     border-radius: 30px;
                     padding: 2px 2px 2px 20px;
                     height: 50px;
-
+                    border: 1px solid $blue;
                     .product-catagory-selector {
 
                         select {
-                            color: #202020;
+                            color: $blue;
                             font-size: 16px;
                             background: none;
                             border: none;
@@ -209,7 +212,7 @@ header {
 
                             .user-icon {
                                 font-size: 35px;
-                                color: $white;
+                                color: $blue;
                                 position: relative;
                             }
                             .cart-icon {
@@ -251,7 +254,7 @@ header {
                                     }
 
                                     &:last-child {
-                                        color: $white;
+                                        color: $blue;
                                         font-weight: 600;
 
                                     }
